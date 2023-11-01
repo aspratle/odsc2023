@@ -11,7 +11,7 @@ from scipy.stats import pearsonr
 
 def plot_graph( G ):
     pos = nx.circular_layout(G)  
-    nx.draw(G, pos, with_labels=True, node_size=2000, node_color="skyblue", font_size=15, width=2.5, alpha=0.6, edge_color="gray")
+    nx.draw(G, pos, with_labels=True, node_size=2000, node_color="skyblue", font_size=15, width=2.5, alpha=0.9, edge_color="gray")
     plt.title("Causal Graph")
     
     plt.show()    
